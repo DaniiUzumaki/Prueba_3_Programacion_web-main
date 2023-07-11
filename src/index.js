@@ -27,6 +27,8 @@ app.all('*', (req, res) => {
     );
 })
 //INICIO SERVIDOR
-app.listen(4000, () => {
-    console.log('Servidor iniciado, escuchando en el puerto 4000');
+app.listen(process.env.PORT, () => {
+    // acá hay un temita, le corregí el parám del puerto, por que si lo editas acá te queda la embarrá en la variables de entorno
+    console.log(`Servidor iniciado correctamente en el puerto ${process.env.PORT} :D \n en el caso de requerir cambiar el puerto, editarlo en el .env`);
 });
+// como dato adicional - las variables de entorno (los archivos env) van en la misma ruta que el index o donde se inicializa la app
