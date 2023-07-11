@@ -1,0 +1,15 @@
+#WEBTOKEN
+SECRETO=ProgramacionWeb-microservicios
+
+#BASEDATOS
+HOST='localhost'
+DATABASE='videojuegos'
+USER='root'
+PASSWORD='admin'
+
+#PUERTO APLICACION
+PORT=3306
+
+#usuario login
+# usuario: dsanmartin
+# pass: 12345678
